@@ -24,7 +24,7 @@ Fonctionnalités principales :
 - aperçu temps réel du CV ;
 - 3 mises en page : `Standard`, `Sidebar`, `Centré` ;
 - 4 thèmes : `dark`, `minimal`, `creative`, `classic` ;
-- export du CV en fichier HTML ;
+- export du CV en `HTML`, `PDF`, `PNG` et `SVG` ;
 - génération et amélioration de contenu avec OpenRouter.
 
 ## Captures d’écran
@@ -76,7 +76,7 @@ http://localhost:8000
 3. Choisir une mise en page en haut de l’interface.
 4. Choisir un thème visuel.
 5. Vérifier le rendu dans l’aperçu à droite.
-6. Exporter le CV avec le bouton `Exporter HTML`.
+6. Exporter le CV au format `HTML`, `PDF`, `PNG` ou `SVG`.
 
 ## Utilisation de l’IA
 
@@ -102,7 +102,14 @@ Le modèle actuellement référencé dans l’interface est :
 
 ## Export
 
-L’export génère un fichier HTML autonome du CV courant, incluant le style nécessaire à l’affichage.
+L’application permet d’exporter le CV dans plusieurs formats :
+
+- `HTML` pour conserver une version web autonome ;
+- `PDF A4` pour l’impression et le partage ;
+- `PNG HD` pour un rendu image haute résolution ;
+- `SVG` pour un format vectoriel lorsque le rendu le permet.
+
+Les exports sont préparés sur une feuille au format `A4` pour garder une taille cohérente.
 
 ## Responsive
 
@@ -130,7 +137,6 @@ Tu peux modifier facilement dans `index.html` :
 ## Roadmap
 
 - [ ] Ajouter la sauvegarde locale avec `localStorage`
-- [ ] Proposer un export PDF
 - [ ] Permettre la réorganisation des sections par glisser-déposer
 - [ ] Ajouter d’autres templates de CV
 - [ ] Améliorer la validation des URLs et des champs
