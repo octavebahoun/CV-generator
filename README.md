@@ -1,6 +1,17 @@
 # CV Generator
 
-Générateur de CV et portfolio en HTML, avec aperçu en temps réel, plusieurs mises en page, plusieurs thèmes visuels et une aide IA via OpenRouter.
+![HTML5](https://img.shields.io/badge/HTML5-Ready-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styled-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-AI%20Enabled-7C3AED)
+![Status](https://img.shields.io/badge/Status-Active-22C55E)
+
+Générateur de CV et portfolio en HTML avec aperçu en temps réel, thèmes visuels, mises en page multiples et assistance IA via OpenRouter.
+
+## Demo
+
+- Démo en ligne : `https://cv-generator-nine-orcin.vercel.app`
+- Lancement local : ouvrir `index.html` dans le navigateur
 
 ## Aperçu
 
@@ -16,11 +27,24 @@ Fonctionnalités principales :
 - export du CV en fichier HTML ;
 - génération et amélioration de contenu avec OpenRouter.
 
-## Fichier principal
+## Captures d’écran
 
-Le projet fonctionne principalement avec :
+### Vue globale
+
+![Vue globale de l'application](docs/screenshots/app-overview.svg)
+
+### Panneau d’édition
+
+![Panneau d'édition](docs/screenshots/editor-panel.svg)
+
+### Aperçu du CV
+
+![Aperçu du CV](docs/screenshots/cv-preview.svg)
+
+## Fichiers principaux
 
 - `index.html` : application principale ;
+- `docs/screenshots/` : visuels utilisés dans le README ;
 - `README.md` : documentation du projet.
 
 ## Lancer le projet
@@ -33,7 +57,7 @@ Ouvre simplement `index.html` dans ton navigateur.
 
 ### Option 2 — serveur local
 
-Tu peux aussi lancer un serveur statique local, par exemple :
+Tu peux aussi lancer un serveur statique local :
 
 ```bash
 python3 -m http.server 8000
@@ -103,10 +127,18 @@ Tu peux modifier facilement dans `index.html` :
 - l’export est en HTML uniquement ;
 - les appels IA nécessitent une connexion réseau et une clé OpenRouter valide.
 
+## Roadmap
+
+- [ ] Ajouter la sauvegarde locale avec `localStorage`
+- [ ] Proposer un export PDF
+- [ ] Permettre la réorganisation des sections par glisser-déposer
+- [ ] Ajouter d’autres templates de CV
+- [ ] Améliorer la validation des URLs et des champs
+- [ ] Ajouter un système d’import/export des données utilisateur
+
 ## Idées d’amélioration
 
-- ajout de sauvegarde locale (`localStorage`) ;
-- export PDF ;
-- duplication/réorganisation des sections ;
-- ajout de templates supplémentaires ;
-- meilleure validation des URLs et champs utilisateur.
+- prévisualisation de plusieurs variantes générées ;
+- personnalisation plus fine des polices ;
+- duplication rapide d’expériences et de projets ;
+- mode impression optimisé.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-label="Aperçu du CV généré">
+  <rect width="900" height="720" fill="#0f0f0f"/>
+  <rect x="48" y="42" width="804" height="636" rx="20" fill="#111111" stroke="#343434"/>
+  <text x="108" y="138" fill="#f0ede8" font-size="46" font-family="Georgia, serif" font-weight="700">OCTAVE BAHOUN-</text>
+  <text x="108" y="190" fill="#f0ede8" font-size="46" font-family="Georgia, serif" font-weight="700">HOUTOUKPE</text>
+  <text x="108" y="235" fill="#e8d5a3" font-size="24" font-family="Georgia, serif" font-style="italic">Développeur FullStack en formation</text>
+  <rect x="680" y="118" width="110" height="110" rx="55" fill="#232323" stroke="#e8d5a3" stroke-width="4"/>
+  <rect x="108" y="286" width="682" height="2" fill="#e8d5a3"/>
+  <text x="108" y="352" fill="#e8d5a3" font-size="24" font-family="Georgia, serif" font-weight="700">À PROPOS</text>
+  <rect x="248" y="344" width="542" height="1" fill="#343434"/>
+  <rect x="108" y="378" width="642" height="18" rx="6" fill="#2a2a2a"/>
+  <rect x="108" y="408" width="682" height="18" rx="6" fill="#2a2a2a"/>
+  <rect x="108" y="438" width="620" height="18" rx="6" fill="#2a2a2a"/>
+  <text x="108" y="518" fill="#e8d5a3" font-size="24" font-family="Georgia, serif" font-weight="700">EXPÉRIENCE</text>
+  <rect x="278" y="510" width="512" height="1" fill="#343434"/>
+  <rect x="108" y="548" width="682" height="18" rx="6" fill="#2a2a2a"/>
+  <rect x="108" y="578" width="602" height="18" rx="6" fill="#2a2a2a"/>
+  <rect x="108" y="608" width="650" height="18" rx="6" fill="#2a2a2a"/>
+</svg>
