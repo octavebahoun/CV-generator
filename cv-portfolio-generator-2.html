@@ -78,6 +78,7 @@
       background: var(--bg);
       color: var(--text);
       font-family: var(--font-body);
+      min-height: 100vh;
       transition: background 0.4s, color 0.4s;
     }
 
@@ -200,14 +201,22 @@
     .app-layout {
       display: grid;
       grid-template-columns: 420px 1fr;
-      height: calc(100vh - 100px);
-      overflow: hidden;
+      min-height: calc(100vh - 100px);
+      align-items: start;
+      overflow: visible;
+    }
+
+    .editor-col {
+      display: flex;
+      flex-direction: column;
+      align-self: start;
+      min-width: 0;
+      border-right: 1px solid var(--border);
     }
 
     /* LEFT PANEL - EDITOR */
     .editor-panel {
-      border-right: 1px solid var(--border);
-      overflow-y: auto;
+      overflow: visible;
       padding: 24px;
       display: flex;
       flex-direction: column;
@@ -490,7 +499,9 @@
 
     /* RIGHT PANEL - PREVIEW */
     .preview-panel {
-      overflow-y: auto;
+      min-width: 0;
+      min-height: calc(100vh - 100px);
+      overflow: visible;
       background: var(--bg);
       position: relative;
     }
